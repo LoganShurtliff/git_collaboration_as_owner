@@ -1,0 +1,80 @@
+h1 {
+    text-align: center;
+    color:blue;
+}
+
+h3 {
+    color:blue;
+}
+
+/* tabs */
+.tabs > ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.tabs .trigger {
+    list-style-type: none;
+    background: #cac6c6;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px 10px; 
+    cursor: pointer;
+    margin: 0 3px;
+}
+.tabs .trigger.active {
+    background: blue;
+    color: white;
+}
+.tabs .content{
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: none;
+    text-align: center;
+}
+.tabs .content.active {
+    display: block;
+}
+
+/* Guessing Game */
+body {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+input {
+    font-size: x-large;
+}
+
+#result {
+    padding: 3px;
+    font-size: xx-large;
+}
+
+.tooBig {
+    background-color: pink;
+    color: blue;
+}
+
+.tooSmall {
+    background-color: lightblue;
+    color: blue;
+}
+
+.tooMany {
+    background-color: red;
+    color: black;
+}
+
+.justRight {
+    background-color: lightgreen;
+    color: green;
+}
+
+button {
+    font-size: x-large;
+    margin-bottom: 10px;
+}
